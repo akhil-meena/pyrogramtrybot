@@ -1,9 +1,9 @@
 from os import environ
 from pyrogram import Client
 
+bot_token = environ["BOT_TOKEN"]
 api_id = int(environ["API_ID"])
 api_hash = environ["API_HASH"]
-bot_token = environ["BOT_TOKEN"]
 info = "Greetings akhil **Heroku**!"
 
 app = Client(":memory:",bot_token, api_id, api_hash)
