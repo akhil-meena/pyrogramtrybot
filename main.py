@@ -6,9 +6,9 @@ api_hash = environ["API_HASH"]
 bot_token = environ["BOT_TOKEN"]
 info = "Greetings from **Heroku**!"
 
-app = Client(":memory:", api_id, api_hash, bot_token=bot_token)
+app = Client(":memory:",bot_token, api_id, api_hash)
 
-print(info)
+#print(info)
 
 @app.on_message()
 async def work(client, message):
