@@ -12,14 +12,14 @@
     }
   },
   "env": {
+    "BOT_TOKEN": {
+      "description": "Bot token from https://t.me/BotFather"
+    },
     "API_ID": {
       "description": "App api_id from https://my.telegram.org"
     },
     "API_HASH": {
       "description": "App api_hash from https://my.telegram.org"
-    },
-    "BOT_TOKEN": {
-      "description": "Bot token from https://t.me/BotFather"
     }
   }
 }
